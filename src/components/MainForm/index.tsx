@@ -8,7 +8,7 @@ export function MainForm() {
     return (
         <form action="" className={styles.form}>
             <div className="formRow">
-                <Input labelText='Task' id='meuInput' type='number' placeholder='Adicione o nome da tarefa...' />
+                <Input labelText='Task' id='meuInput' type='text' placeholder='Adicione o nome da tarefa...' />
             </div>
             <div className={styles.formRow}>
                 <p>Lorem ipsum dolor, sit.</p>
