@@ -6,7 +6,7 @@ type ThemeProps = 'dark' | 'light';
 
 export function Menu() {
     const [theme, setTheme] = useState<ThemeProps>(() => {
-        const savedTheme = localStorage.getItem("theme") as ThemeProps | 'dark';
+        const savedTheme = localStorage.getItem("theme") as ThemeProps ?? 'dark';
         return savedTheme;
     });
 
