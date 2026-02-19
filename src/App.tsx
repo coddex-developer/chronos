@@ -8,6 +8,7 @@ import { Input } from './components/Input';
 import { Cycles } from './components/Cycles';
 import { DefaultButton } from './components/DefaultButton';
 import { PlayIcon } from 'lucide-react';
+import { Footer } from './components/Footer';
 
 
 export default function App() {
@@ -16,9 +17,11 @@ export default function App() {
       <Container>
         <Logo />
       </Container>
+
       <Container>
         <Menu />
       </Container>
+
       <Container>
         <CountDown />
       </Container>
@@ -43,6 +46,10 @@ export default function App() {
           </div>
 
         </form>
+      </Container>
+
+      <Container>
+        <Footer />
       </Container>
     </>
   );
